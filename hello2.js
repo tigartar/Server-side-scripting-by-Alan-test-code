@@ -4,7 +4,7 @@ var app = express();
 var fs = require('fs');
 var util = require('util');
 var currentdate = new Date();
-var datetime = "Current time of day" + currentdate.getDate() + "/"+(currentdate.getMonth()+1)
+var datetime = "Current time of day " + currentdate.getDate() + "/"+(currentdate.getMonth()+1)
     + "/" + currentdate.getFullYear() + " @ "
     + currentdate.getHours() + ":"
     + currentdate.getMinutes() + ":" + currentdate.getSeconds();
