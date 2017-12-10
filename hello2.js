@@ -2,10 +2,9 @@ var path = require('path');
 var express = require("express");
 var app = express();
 var fs = require('fs');
-var toBeWritten = 'Hello World!';
 var util = require('util');
 var currentdate = new Date();
-var datetime = currentdate.getDate() + "/"+(currentdate.getMonth()+1)
+var datetime = "Current time of day" + currentdate.getDate() + "/"+(currentdate.getMonth()+1)
     + "/" + currentdate.getFullYear() + " @ "
     + currentdate.getHours() + ":"
     + currentdate.getMinutes() + ":" + currentdate.getSeconds();
